@@ -1,0 +1,23 @@
+name: SilentHub
+main: tk.jakehopkins.silenthub.Main
+version: 1.0
+author: 'mineman277'
+commands:
+    silenthub:
+        description: Hides all players & reduces lag!
+        permission: silenthub.Enable
+        permission-message: You cannot switch to silent hub!
+    normalhub:
+        description: Shows All Players
+        permission: silenthub.Disable
+        permission-message: You cannot switch to normal hub!
+permissions:
+    silenthub.*:
+        default: op
+        description: All SilentHub commands!
+    silenthub.Enable:
+        default: op
+        description: Join SilentHub!
+    silenthub.Disable:
+        default: op
+        description: Join NormalHub!
